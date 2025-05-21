@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.card {
+    background-color: rgba(245, 245, 245, 0.4);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.bg-container {
+    background-image: url('https://img.freepik.com/premium-photo/group-pets-posing-around-border-collie-dog-cat-ferret-rabbit-bird-fish-rodent_191971-22249.jpg?ga=GA1.1.409497751.1747215752&semt=ais_hybrid&w=740');
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-heading {
+    color: #4a2e00;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.paragraph-1 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.btn {
+    height: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    background-color: #a05e00;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #d27f00;
+}
+
+/* ---------------------------------------------section2---------------------------------------------------------*/
+
+.pets-images-bg-container {
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+}
+
+.pets-images-heading {
+    padding: 24px;
+    color: #674300;
+    font-size: 50px;
+    font-family: "Sans-Serif";
+    font-weight: bold;
+}
+
+.pets-images-card-container {
+    background-color: #BB9058;
+    border-radius: 8px;
+    padding: 18px;
+    margin: 15px;
+}
+
+.pets-images-card-heading {
+    color: white;
+    font-family: "Sans-Serif";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.pets-images-card-description {
+    font-family: "Sans-Serif";
+    font-size: 30px;
+    color: #FFEDF2;
+    margin-right: 5px;
+}
+
+.pets-images-card-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn1 {
+    height: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    background-color: #a05e00;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #d27f00;
+}
+
+/*------------------------section3--------------------*/
+
+.gap {
+    padding: 10px;
+}
+
+.mammals-section {
+    background-color: white;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: auto 25vh;
+}
+
+.top-section-heading {
+    font-family: "Sans-Serif";
+    color: #674300;
+    font-size: 50px;
+    width: 550px;
+    padding: 10px;
+    text-align: left;
+    margin: 5px;
+}
+
+.bottom-section-container {
+    background-color: #B57002;
+}
+
+.d-flex {
+    align-items: stretch;
+}
+
+.card-item {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin: 10px;
+    overflow: visible;
+    flex: 1;
+}
+
+.points {
+    word-wrap: break-word;
+    max-width: 90%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.card-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    max-width: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    aspect-ratio: 1 / 1;
+}
+
+.card-name {
+    font-family: "Sans-Serif";
+    font-size: 25px;
+    color: #674300;
+    font-weight: bolder;
+}
+
+.mammal-lifestyle {
+    font-family: "Sans-Serif";
+    font-size: 20px;
+    color: #674300;
+    margin: 5px;
+}
+
+
+.detailed-view-bg-container {
+    background-color: #B57002;
+    height: auto;
+    background-size: cover;
+    padding: 10px;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-container {
+    background-color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 25px;
+    padding: 10px;
+}
+
+.detailed-view-card-heading {
+    color: #B57002;
+    font-family: "Sans-Serif";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.detailed-view-card-decription {
+    font-family: "Sans-Serif";
+    font-size: 30px;
+    color: #B57020;
+}
+
+.detailed-view-card-text-container {
+    padding: 15px;
+}
+
+.detailed-image {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.btn-left {
+    float: left;
+}
+
+.btn-right {
+    float: right;
+}
